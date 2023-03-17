@@ -1,1 +1,0 @@
-$$ f_{ij}^{(n)}(z) = \int_z^{\infty} dr r^n c_{ij}^{*}(r) $$

@@ -4,8 +4,8 @@ import streamlit as st
 
 from helper_functions import read_render_markdown_file
 
-APP_TITLE = "Charged fluids near interfaces"
-SUB_TITLE = "Integral Equation Theory"
+APP_TITLE = "TODO: config"
+SUB_TITLE = "TODO: config"
 
 st.set_page_config(
     page_title=APP_TITLE,
