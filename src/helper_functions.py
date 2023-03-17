@@ -1,6 +1,8 @@
 from pathlib import Path
+
 from IPython.display import Markdown, display
-from streamlit import markdown, cache
+from streamlit import cache, markdown
+
 
 @cache
 def st_read_markdown_file(markdown_file):

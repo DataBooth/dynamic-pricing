@@ -3,6 +3,8 @@ from pathlib import Path
 import streamlit as st
 
 from helper_functions import read_render_markdown_file
+from sidebar import create_sidebar
+
 
 APP_TITLE = "TODO: config"
 SUB_TITLE = "TODO: config"
@@ -24,3 +26,5 @@ def create_app_header(app_title, subtitle=None):
 create_app_header(APP_TITLE, SUB_TITLE)
 
 read_render_markdown_file("docs/app_main.md", output="streamlit")
+
+create_sidebar()
