@@ -3,6 +3,12 @@ from pathlib import Path
 from IPython.display import Markdown, display
 from streamlit import cache, markdown
 
+#try:
+#    import tomllib
+#except ModuleNotFoundError:
+
+import tomli as tomllib
+
 
 @cache
 def st_read_markdown_file(markdown_file):
@@ -29,3 +35,8 @@ def read_render_markdown_file(markdown_file, output="jupyter"):
                 print(f"Error with markdown file: {markdown_file}")
                 return None
 
+
+def read_toml_file(toml_file="./app_config.toml"):
+    with open(toml_file, "rb") as f:
+        toml =  tomllib.load(f)
+    return toml

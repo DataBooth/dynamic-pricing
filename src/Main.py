@@ -2,12 +2,13 @@ from pathlib import Path
 
 import streamlit as st
 
-from helper_functions import read_render_markdown_file
+from helper_functions import read_render_markdown_file, read_toml_file
 from sidebar import create_sidebar
 
+config = read_toml_file()
 
-APP_TITLE = "TODO: config"
-SUB_TITLE = "TODO: config"
+APP_TITLE = config["st-app"]["APP_TITLE"]
+SUB_TITLE = config["st-app"]["SUB_TITLE"]
 
 st.set_page_config(
     page_title=APP_TITLE,

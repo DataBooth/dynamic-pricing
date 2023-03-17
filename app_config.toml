@@ -1,5 +1,6 @@
-[APP]
+[st-app]
 DATASOURCE = 'No data as yet'
 AUTHOR = 'by [DataBooth.com.au](https://www.databooth.com.au)'
-NAME = 'AppName App'
+APP_TITLE = 'The AnthonyB App'
+SUB_TITLE = 'A web app to [INSERT HERE]'
 LAYOUT = 'wide'
