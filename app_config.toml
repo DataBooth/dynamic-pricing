@@ -1,0 +1,5 @@
+[APP]
+DATASOURCE = 'No data as yet'
+AUTHOR = 'by [DataBooth.com.au](https://www.databooth.com.au)'
+NAME = 'AppName App'
+LAYOUT = 'wide'
