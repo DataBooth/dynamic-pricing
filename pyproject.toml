@@ -1,0 +1,21 @@
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = [
+    "notebook>=6.5.3",
+    "pytest>=7.2.2",
+    "pytest-reqs>=0.2.1",
+]
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Michael Booth", email = "michael@databooth.com.au"},
+]
+dependencies = [
+    "streamlit>=1.12.0",
+    "watchdog>=2.3.1",
+]
+requires-python = ">=3.9"
+license = {text = "MIT"}
