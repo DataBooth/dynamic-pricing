@@ -16,7 +16,6 @@ RUN pip install -r requirements.txt
 COPY docs app/docs
 COPY src app/src
 COPY data app/data
-COPY app_config.toml app_config.toml
 
 WORKDIR /app
 

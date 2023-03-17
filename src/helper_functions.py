@@ -36,7 +36,7 @@ def read_render_markdown_file(markdown_file, output="jupyter"):
                 return None
 
 
-def read_toml_file(toml_file="./app_config.toml"):
+def read_toml_file(toml_file="./src/app_config.toml"):
     with open(toml_file, "rb") as f:
         toml =  tomllib.load(f)
     return toml
