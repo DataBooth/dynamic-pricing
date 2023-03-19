@@ -1,0 +1,13 @@
+credentials:
+  usernames:
+    mjboothaus:
+      email: michael@databooth.com.au
+      name: Michael Booth
+      password: $2b$12$s0lRXmRuabendRUIK/pmE.7kR8slZHZgCvNJEbJ9cwXWuLKip2Qoy
+cookie:
+  expiry_days: 30
+  key: st_app_signature_key
+  name: st_app_cookie_name
+preauthorized:
+  emails:
+  - mjboothaus@gmail.com
